@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.vite/
+.env
+.env.local
+Reqdocforportfolio.docx
+extracted.txt
+.DS_Store
+Thumbs.db
