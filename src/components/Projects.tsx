@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Section } from './ui/Section';
 import { Card } from './ui/Card';
 import { Button } from './ui/Button';

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Section } from './ui/Section';
 import { Card } from './ui/Card';
 import { motion } from 'framer-motion';
@@ -116,7 +116,7 @@ export function Skills() {
                   paddingAngle={5}
                   dataKey="level"
                 >
-                  {techStackData.map((entry, index) => (
+                  {techStackData.map((_, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}
                 </Pie>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Section } from './ui/Section';
 import { Card } from './ui/Card';
 import { Code2, Server, Cloud, Lightbulb } from 'lucide-react';
